@@ -4,7 +4,7 @@ class Application
 
     time = Time.new
     current_hour = time.hour
-    resp.write "It is currently #{current_hour} o' clock!
+    resp.write "It is currently #{current_hour} o' clock!"
 
     if current_hour < 12
       resp.write "Good Morning!"
